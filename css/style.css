@@ -1,0 +1,41 @@
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.burger {
+	display: none;
+	font-size: 20px;
+	color: white;
+}
+.logo img {
+	width: 100px;
+}
+.navigation-li {
+	margin-left: 10px;
+}
+.social-li{
+	margin-left: 10px;
+}
+.bg{
+	background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/09/12/11/naturo-monkey-selfie.jpg?w968h681);
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.child {
+	width: 200px;
+	height: 200px;
+	background: blue;
+}
